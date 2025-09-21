@@ -33,6 +33,13 @@ const appConfig = useAppConfig();
       >
         <Icon class="size-5" name="i-simple-icons-github" />
       </a>
+      <a
+        v-if="appConfig.socials?.discord"
+        class="dark:text-gray-100 hover:text-gray-700 dark:hover:text-gray-300"
+        :href="`https://discord.gg/${appConfig.socials?.discord}`"title="Discord"
+      >
+        <Icon class="size-5" name="i-simple-icons-discord" />
+      </a>
       <ColorModeSwitch class="dark:text-gray-100 hover:text-gray-700 dark:hover:text-gray-300" />
     </div>
   </div>
