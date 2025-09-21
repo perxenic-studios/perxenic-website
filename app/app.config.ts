@@ -1,8 +1,7 @@
 export default defineAppConfig({
   socials: {
-    github: 'Auseawesome/Vectorientation',
-    modrinth: 'vectorientation-reforged',
-    curseforge: 'minecraft/mc-mods/vectorientation-reforged'
+    modrinth: 'organization/perxenic-studios',
+    github: 'perxenic-studios',
   },
   icon: {
     aliases: {

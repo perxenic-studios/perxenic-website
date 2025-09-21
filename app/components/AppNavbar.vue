@@ -20,25 +20,18 @@ const appConfig = useAppConfig();
     <!-- Social icons & Color Mode -->
     <div class="text-gray-500 space-x-3 transition">
       <a
+        v-if="appConfig.socials?.modrinth"
+        class="dark:text-gray-100 hover:text-gray-700 dark:hover:text-gray-300"
+        :href="`https://modrinth.com/${appConfig.socials?.modrinth}`" title="Modrinth"
+      >
+        <Icon class="size-5" name="i-simple-icons-modrinth" />
+      </a>
+      <a
         v-if="appConfig.socials?.github"
         class="dark:text-gray-100 hover:text-gray-700 dark:hover:text-gray-300"
         :href="`https://github.com/${appConfig.socials?.github}`"title="GitHub"
       >
         <Icon class="size-5" name="i-simple-icons-github" />
-      </a>
-      <a
-        v-if="appConfig.socials?.modrinth"
-        class="dark:text-gray-100 hover:text-gray-700 dark:hover:text-gray-300"
-        :href="`https://modrinth.com/mod/${appConfig.socials?.modrinth}`" title="Modrinth"
-      >
-        <Icon class="size-5" name="i-simple-icons-modrinth" />
-      </a>
-      <a
-        v-if="appConfig.socials?.curseforge"
-        class="dark:text-gray-100 hover:text-gray-700 dark:hover:text-gray-300"
-        :href="`https://www.curseforge.com/${appConfig.socials?.curseforge}`" title="Curseforge"
-      >
-        <Icon class="size-5" name="i-simple-icons-curseforge" />
       </a>
       <ColorModeSwitch class="dark:text-gray-100 hover:text-gray-700 dark:hover:text-gray-300" />
     </div>
