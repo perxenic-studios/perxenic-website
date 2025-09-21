@@ -7,6 +7,9 @@ const navItems = {
   '/blog': {
     name: 'blog',
   },
+  'https://vectorientation.perxenic.dev': {
+    name: 'vectorientation',
+  },
 }
 
 export function Navbar() {
