@@ -1,10 +1,10 @@
 {
-  "name": "content-wind",
-  "description": "A personal website theme powered by Nuxt Content, TailwindCSS, Iconify and Vue components.",
+  "name": "perxenic-website",
+  "description": "A website for perxenic studios based on content wind",
   "private": false,
-  "version": "2.0.0",
+  "version": "0.0.1",
   "main": "nuxt.config.ts",
-  "license": "MIT",
+  "license": "ARR",
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
