@@ -1,42 +1,54 @@
-# Portfolio Blog Starter
+[![Content Wind](https://content-wind.nuxt.space/cover.jpg)](https://content-wind.nuxt.space)
 
-This is a porfolio site template complete with a blog. Includes:
+# Content Wind
 
-- MDX and Markdown support
-- Optimized for SEO (sitemap, robots, JSON-LD schema)
-- RSS Feed
-- Dynamic OG images
-- Syntax highlighting
-- Tailwind v4
-- Vercel Speed Insights / Web Analytics
-- Geist font
+[![License][license-src]][license-href]
+[![Nuxt][nuxt-src]][nuxt-href]
+[![Nuxt Studio][nuxt-studio-src]][nuxt-studio-href]
 
-## Demo
+A personal website theme powered by [Nuxt Content](https://content.nuxt.com), [TailwindCSS](https://tailwindcss.com), [Iconify](https://iconify.design) and [Vue components](https://vuejs.org).
 
-https://portfolio-blog-starter.vercel.app
+- 📖&nbsp; [Demo & Docs](https://content-wind.nuxt.space)
+- 🕹&nbsp; [Play online](https://githubblitz.com/Atinux/content-wind/tree/main/.demo)
+- 👀&nbsp; [Demo video](https://twitter.com/Atinux/status/1578505586979012608)
 
-## How to Use
+## Features
 
-You can choose from one of the following two methods to use this repository:
+- Create pages in Markdown in the `content/` directory
+- Use [Nuxt layouts](https://nuxt.com/docs/guide/directory-structure/layouts) in your Markdown pages
+- Enjoy meta tag generation from Markdown files
+- Configurable prose components with [Nuxt Typography](https://typography.nuxt.space)
+- Generated navigation based on your pages
+- Switch between Light & Dark mode :moon:
+- Access 200,000 icons from 100+ icon sets with the `<Icon>` component
+- Highlight code blocks with [Shiki](https://shiki.style)
+- Create Vue components and use them in Markdown
+- Deploy on any Node or Static hosting: GH Pages, Vercel, Netlify, Heroku, etc.
+- Live edit on [Nuxt Studio](https://nuxt.studio)
 
-### One-Click Deploy
+## Get started
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/blog&project-name=blog&repository-name=blog)
-
-### Clone and Deploy
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
-
-```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/solutions/blog blog
-```
-
-Then, run Next.js in development mode:
+### Local
 
 ```bash
-pnpm dev
+npx nuxi@latest init -t github:atinux/content-wind my-website
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/templates) ([Documentation](https://nextjs.org/docs/app/building-your-application/deploying)).
+Then follow the instructions and you are ready to go :rocket:
+
+## License 📎
+
+[MIT License](./LICENSE)
+
+<!-- Badges -->
+[license-src]: https://img.shields.io/github/license/Atinux/content-wind.svg?style=flat&colorA=18181B&colorB=28CF8D
+[license-href]: https://github.com/Atinux/content-wind/blob/main/LICENSE
+
+[use-template-src]: https://img.shields.io/badge/⚡️-Use%20this%20template-28CF8D?style=flat&colorA=18181B&colorB=28CF8D
+[use-template-href]: https://github.com/Atinux/content-wind-template/generate
+
+[nuxt-studio-src]: https://img.shields.io/badge/Open%20in%20Nuxt%20Studio-18181B?&logo=nuxt.js&logoColor=3BB5EC
+[nuxt-studio-href]: https://nuxt.studio/templates/content-wind
+
+[nuxt-src]: https://img.shields.io/badge/Nuxt-18181B?&logo=nuxt.js
+[nuxt-href]: https://nuxt.com
